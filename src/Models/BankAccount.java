@@ -31,7 +31,7 @@ public class BankAccount {
     public String toString() {
         return "BankAccount {" +
                 " card= " + (String.format("%016d", card)) +
-                ", balance= " + balance +
+                ", balance = " + balance +
                 " }";
     }
 }
